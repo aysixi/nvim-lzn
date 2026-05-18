@@ -14,24 +14,9 @@ end
 do
   local __nixvim_binds = {
     { action = "<Nop>", key = "<Space>", mode = "", options = { silent = true } },
-    {
-      action = ":w<CR>",
-      key = "S",
-      mode = "n",
-      options = { desc = "save file", silent = true },
-    },
-    {
-      action = ":qa<CR>",
-      key = "Q",
-      mode = "n",
-      options = { desc = "quit neovim", silent = true },
-    },
-    {
-      action = "<ESC>",
-      key = "jk",
-      mode = "i",
-      options = { desc = "exit insert mode", silent = true },
-    },
+    { action = ":w<CR>", key = "S", mode = "n", options = { desc = "save file", silent = true } },
+    { action = ":qa<CR>", key = "Q", mode = "n", options = { desc = "quit neovim", silent = true } },
+    { action = "<ESC>", key = "jk", mode = "i", options = { desc = "exit insert mode", silent = true } },
     { action = "<C-w>h", key = "<C-h>", mode = "n", options = { silent = true } },
     { action = "<C-w>j", key = "<C-j>", mode = "n", options = { silent = true } },
     { action = "<C-w>k", key = "<C-k>", mode = "n", options = { silent = true } },
@@ -68,12 +53,7 @@ do
     { action = ":nohlsearch<CR>", key = "<Space><CR>", mode = "n", options = { silent = true } },
     { action = "nzz", key = "n", mode = "n", options = { silent = true } },
     { action = "Nzz", key = "N", mode = "n", options = { silent = true } },
-    {
-      action = ":tabnew<CR>",
-      key = "<C-n>",
-      mode = "n",
-      options = { desc = "new tab", silent = true },
-    },
+    { action = ":tabnew<CR>", key = "<C-n>", mode = "n", options = { desc = "new tab", silent = true } },
     { action = "5k", key = "<C-u>", mode = "n", options = { silent = true } },
     { action = "5j", key = "<C-d>", mode = "n", options = { silent = true } },
     { action = "$", key = "<C-.>", mode = "n", options = { silent = true } },
