@@ -63,6 +63,9 @@ local plugins = {
 
   -- keybinding
   "which-key-nvim",
+
+  --ai
+  "avante-nvim",
 }
 
 for _, plugin in ipairs(plugins) do
