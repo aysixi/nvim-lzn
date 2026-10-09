@@ -65,7 +65,7 @@ local plugins = {
   "which-key-nvim",
 
   --ai
-  "avante-nvim",
+  -- "avante-nvim",
 }
 
 for _, plugin in ipairs(plugins) do

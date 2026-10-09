@@ -1,6 +1,6 @@
 local a = "https://github.com/saghen/"
 vim.pack.add(
-  { "https://github.com/Kaiser-Yang/blink-cmp-avante", a .. "saghen/blink.lib", a .. "saghen/blink.cmp" },
+  { "https://github.com/Kaiser-Yang/blink-cmp-avante", a .. "blink.lib", a .. "blink.cmp" },
   { load = false }
 )
 
